@@ -1,19 +1,3 @@
-const getDate = new Date();
-const getYear = getDate.getFullYear();
-const getMont = getDate.getMonth();
-const getDay = getDate.getDate();
-
-const date = '${getYear}-${getMont}-${getDay}';
-console.log(date);
-
-
-
-
-
-
-
-
-
 // Function to fetch and display prayer times for Shah Alam on 11-Mar-2025
 function getWaktuSolatShahAlam() {
   const apiUrl = 'https://www.e-solat.gov.my/index.php?r=esolatApi/takwimsolat&period=year&zone=SGR03';
